@@ -1,0 +1,46 @@
+chrome
+sublime text
+vim
+emacs
+yale cisco vpn
+gcc (gmp, mpfr, gmc)
+java
+python (numpy, scipy)
+cmake
+mosh
+tmux
+git
+mercurial
+dropbox
+matlab
+--Intel MKL
+--github
+--LapSolver
+--Yale github
+hg setup
+Personal server--shixiao.org
+--folly
+--hhvm
+latex
+pin
+Mathematica
+
+=============================
+dev settings
+in ~/.inputrc
+set editing-mode emacs
+"\e[A": history-search-backward
+"\e[B": history-search-forward
+
+in ~/.bashrc
+
+export EDITOR=emacs
+HISTSIZE=130000 HISTFILESIZE=-1
+alias cp='cp --backup=numbered'
+alias ln='ln --backup=numbered'
+alias mv='mv --backup=numbered'
+shopt -s histappend
+export PROMPT_COMMAND="history -a; history -n"
+==============================
+
+linux patches

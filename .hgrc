@@ -1,0 +1,11 @@
+[ui]
+username = Xiao Shi <xiao.shi@yale.edu>
+
+[extensions]
+githelp =
+smartlog =
+fbamend =
+fbhistedit =
+
+[alias]
+sl = smartlog --template "{shortest(node)}  {author|user}  {bookmarks % '{ifeq(bookmark, current, label(\"yellow\", \" {bookmark}*\"), label(\"green\", \" {bookmark}\"))}'} {ifeq(branch, 'default', '', label(\"bold\", branch))}\n{desc|firstline}\n\n"
