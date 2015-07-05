@@ -26,7 +26,7 @@ pin
 Mathematica
 
 =============================
-fb dev settings
+dev settings
 in ~/.inputrc
 set editing-mode emacs
 "\e[A": history-search-backward
