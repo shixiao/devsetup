@@ -1,0 +1,10 @@
+*~
+!.emacs
+!.bashrc
+!.gitignore
+!.gitconfig
+!.tmux.conf
+!UbuntuSetup.txt
+!.gdbinit
+!.hgrc
+!.profile
