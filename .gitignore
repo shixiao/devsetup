@@ -10,3 +10,6 @@
 !.hgrc
 !.profile
 !i3config
+!.vim*
+!.inputrc
+
