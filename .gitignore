@@ -1,6 +1,6 @@
 *
 !.emacs
-!.emacs.d/*
+!*.el
 !.bashrc
 !.gitignore
 !.gitconfig
