@@ -1,6 +1,6 @@
-*~
 *
 !.emacs
+!.emacs.d/*
 !.bashrc
 !.gitignore
 !.gitconfig
@@ -13,4 +13,4 @@
 !.vim*
 !.inputrc
 !daskeyboardinit.sh
-
+*~
