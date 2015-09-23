@@ -10,16 +10,18 @@
 
 (setq-default column-number-mode t)
 (setq-default line-number-mode t)
+(require 'julia-mode)
 
 (require 'column-marker)
 (add-hook 'latex-mode-hook (lambda () (interactive) (column-marker-1 80)))
 (column-marker-1 80)
 
 (require 'whitespace)
-(setq whitespace-line-column 80) ;; limit line length
-(setq whitespace-style '(face tabs lines-tail))
-(global-whitespace-mode 1)
 
+(setq whitespace-line-column 80) ;; limit line length
+(setq whitespace-style '(face tabs lines-tail trailing tab-mark))
+(global-whitespace-mode 1)
+(add-hook 'before-save-hook 'delete-trailing-whitespace)
 (setq-default show-trailing-whitespace t)
 
 (defun revert-all-buffers ()
@@ -52,4 +54,3 @@
 ;; tree representation of changes to to walk the undo/redo graph. "C-x u" to open tree for current file.
 (require 'undo-tree)
 (global-undo-tree-mode)
-
