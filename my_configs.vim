@@ -1,5 +1,10 @@
+source ~/.vim/bundle/dragvisuals.vim
+source ~/.vim/bundle/hudigraphs.vim
+
 set tabstop=4
 set softtabstop=4
+highlight ColorColumn ctermbg=magenta
+call matchadd('ColorColumn', '\%81v', 100)
 set expandtab
 set number
 set showcmd
@@ -17,6 +22,16 @@ syntax enable
 set background=dark
 colorscheme emacs
 
+exec "set listchars=tab:\uBB\uBB,nbsp:~,trail:\uB7"
+set list
+
+nnoremap ; :
+nnoremap : ;
+noremap <Up> <Nop>
+noremap <Down> <Nop>
+noremap <Left> <Nop>
+noremap <Right> <Nop>
+
 set nocompatible              " be iMproved, required
 filetype off                  " required
 
@@ -29,8 +44,7 @@ call vundle#begin('~/.vim/bundle')
 " let Vundle manage Vundle, required
 Plugin 'gmarik/Vundle.vim'
 Plugin 'Valloric/YouCompleteMe'
-
-
+Plugin 'JuliaLang/julia-vim'
 
 Plugin 'octol/vim-cpp-enhanced-highlight'
 " All of your Plugins must be added before the following line
