@@ -45,8 +45,15 @@ call vundle#begin('~/.vim/bundle')
 Plugin 'gmarik/Vundle.vim'
 Plugin 'Valloric/YouCompleteMe'
 Plugin 'JuliaLang/julia-vim'
-
 Plugin 'octol/vim-cpp-enhanced-highlight'
+Plugin 'ntpeters/vim-better-whitespace'
+Plugin 'tomasr/molokai'
+Plugin 'chrisbra/vim-show-whitespace'
+Plugin 'majutsushi/tagbar'
+Plugin 'lyuts/vim-rtags'
+Plugin 'tpope/vim-commentary'
+Plugin 'vim-scripts/tla.vim'
+
 " All of your Plugins must be added before the following line
 call vundle#end()            " required
 filetype plugin indent on    " required
