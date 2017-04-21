@@ -15,4 +15,7 @@
 !daskeyboardinit.sh
 !my_configs.vim
 !keyboardinit.sh
+!devserver*
+!devserver/irssi_conf
+!devserver/znc.conf
 *~

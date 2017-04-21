@@ -1,0 +1,5 @@
+[ui]
+username = Xiao Shi <xshi@fb.com>
+[committemplate]
+reviewers=ngbronson, cas
+subscribers=mcm

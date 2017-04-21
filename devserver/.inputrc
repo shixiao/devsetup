@@ -1,0 +1,6 @@
+"\e[A": history-search-backward
+"\e[B": history-search-forward
+"\C-w": backward-delete-word
+
+set editing-mode vi
+set show-mode-in-prompt on
