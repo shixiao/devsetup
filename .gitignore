@@ -5,7 +5,7 @@
 !.gitignore
 !.gitconfig
 !.tmux.conf
-!UbuntuSetup.txt
+!*.txt
 !.gdbinit
 !.hgrc
 !.profile

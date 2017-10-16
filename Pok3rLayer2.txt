@@ -1,0 +1,16 @@
+Fn + , => Layer 2
+Fn + (right) Ctrl => start programming
+old key; new key; Pn
+rinse, repeat.
+Fn + (right) Ctrl => stop programming
+
+
+right shift => left shift
+ESC => `
+Fn + H => Fn + J // <-
+Fn + J => Fn + K // v
+Fn + K => Fn + I // ^
+Fn + X => Fn + F // Mute/Unmute
+Fn + C => Fn + S // Volume down
+Fn + V => Fn + D // Volume up
+Fn + D => Fn + O // Page down
