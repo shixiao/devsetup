@@ -20,4 +20,5 @@
 !.tmux.conf
 !*.txt
 !.vim*
+!.vim/colors/*
 *~

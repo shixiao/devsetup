@@ -17,7 +17,7 @@ set incsearch
 set hlsearch
 nnoremap <leader><space> :nohlsearch<CR>
 nnoremap gV `[v`]
-set history=500000
+set history=10000
 syntax enable
 set background=dark
 colorscheme molokai
