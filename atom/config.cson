@@ -1,0 +1,14 @@
+"*":
+  editor:
+    fontSize: 18
+    preferredLineLength: 80
+    showIndentGuide: true
+    showInvisibles: true
+  "vim-mode-plus":
+    incrementalSearch: true
+    useSmartcaseForSearch: true
+    useSmartcaseForSearchCurrentWord: true
+  "vim-mode-plus-ex-mode":
+    notifiedUseExMode: true
+  "run-command":
+    shellCommand: "/bin/zsh"

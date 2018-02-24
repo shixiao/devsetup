@@ -1,0 +1,20 @@
+{
+  'atom-text-editor': {
+    'ctrl-k': 'unset!',
+    'ctrl-t': 'nuclide-terminal:new-terminal',
+  },
+  'atom-text-editor.vim-mode-plus:not(.insert-mode)': {
+    'ctrl-l': 'window:focus-pane-on-right',
+    'ctrl-h': 'window:focus-pane-on-left',
+    'ctrl-k': 'window:focus-pane-above',
+    'ctrl-j': 'window:focus-pane-below',
+    ':': 'vim-mode-plus:repeat-find',
+    ';': 'ex-mode:open',
+  },
+  '.platform-darwin atom-workspace': {
+    'ctrl-l': 'window:focus-pane-on-right',
+    'ctrl-h': 'window:focus-pane-on-left',
+    'ctrl-k': 'window:focus-pane-above',
+    'ctrl-j': 'window:focus-pane-below'
+  },
+}

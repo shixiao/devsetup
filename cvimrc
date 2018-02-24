@@ -1,0 +1,17 @@
+set noautofocus
+set nosmoothscroll
+let fullpagescrollpercent=80
+let scrollduration=0
+map <C-u> scrollFullPageUp
+map <C-d> scrollFullPageDown
+map <C-g> :tabnew google
+let searchengine bunny = "https://our.intern.facebook.com/intern/bunny/?q=%s"
+let searchengine intern = "https://our.intern.facebook.com/intern/%s"
+let searchengine internwiki = "https://our.intern.facebook.com/intern/internsearch/?query=%s"
+let searchalias i = "intern"
+let searchalias iw = "internwiki"
+map w :tabnew iw
+map i :tabnew i
+map b :tabnew bunny
+map I insertMode
+let blacklists = ["https://our.intern.facebook.com/*"]
