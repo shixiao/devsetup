@@ -31,6 +31,7 @@ Julia
 mosh
 yale cisco vpn
 
+mendeley
 matlab
 mathematica
 LaTeX: texworks
