@@ -1,7 +1,7 @@
 dropbox
 chrome
   lastpass
-  cvim
+  cvim (cvimrc)
 
 gnome-tweak-tool: swap capslock and esc
 atom
@@ -44,21 +44,3 @@ Personal server--shixiao.org
 --folly
 --buck
 --hhvm
-
-=============================
-dev settings
-in ~/.inputrc
-set editing-mode emacs
-"\e[A": history-search-backward
-"\e[B": history-search-forward
-
-in ~/.bashrc
-
-export EDITOR=emacs
-HISTSIZE=130000 HISTFILESIZE=-1
-alias cp='cp --backup=numbered'
-alias ln='ln --backup=numbered'
-alias mv='mv --backup=numbered'
-shopt -s histappend
-export PROMPT_COMMAND="history -a; history -n"
-==============================
