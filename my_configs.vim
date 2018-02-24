@@ -1,5 +1,5 @@
-source ~/.vim/bundle/dragvisuals.vim
-source ~/.vim/bundle/hudigraphs.vim
+" source ~/.vim/bundle/dragvisuals.vim
+" source ~/.vim/bundle/hudigraphs.vim
 
 set tabstop=4
 set softtabstop=4
@@ -20,7 +20,7 @@ nnoremap gV `[v`]
 set history=500000
 syntax enable
 set background=dark
-colorscheme emacs
+colorscheme molokai
 
 exec "set listchars=tab:\uBB\uBB,nbsp:~,trail:\uB7"
 set list

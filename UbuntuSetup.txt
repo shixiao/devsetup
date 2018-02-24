@@ -1,29 +1,49 @@
+dropbox
 chrome
-sublime text
+  lastpass
+  cvim
+
+gnome-tweak-tool: swap capslock and esc
+atom
+  plugins: vim-mode-plus, ex-mode, nuclide
+  config.cson
+  keymap.cson
 vim
 emacs
-yale cisco vpn
-gcc (gmp, mpfr, gmc)
-java
-python (numpy, scipy)
-cmake
-mosh
+spacemacs
+  monokai
+
+oh-my-zsh
+  zsh
+  curl / wget
+  git
+  mercurial
+  powerline fonts
+
 tmux
-git
-mercurial
-dropbox
+
+gcc (gmp, mpfr, gmc)
+cmake
+java / kotlin: intelliJ
+python (numpy, scipy)
+Julia
+
+mosh
+yale cisco vpn
+
 matlab
+mathematica
+LaTeX: texworks
 --Intel MKL
---github
 --LapSolver
+--github
 --Yale github
+
 hg setup
 Personal server--shixiao.org
 --folly
+--buck
 --hhvm
-latex
-pin
-Mathematica
 
 =============================
 dev settings
@@ -42,5 +62,3 @@ alias mv='mv --backup=numbered'
 shopt -s histappend
 export PROMPT_COMMAND="history -a; history -n"
 ==============================
-
-linux patches
