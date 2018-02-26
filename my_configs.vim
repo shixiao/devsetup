@@ -54,6 +54,7 @@ Plugin 'lyuts/vim-rtags'
 Plugin 'tpope/vim-commentary'
 Plugin 'vim-scripts/tla.vim'
 Plugin 'christoomey/vim-tmux-navigator'
+Plugin 'lervag/vimtex'
 
 " All of your Plugins must be added before the following line
 call vundle#end()            " required
