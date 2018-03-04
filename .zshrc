@@ -61,7 +61,7 @@ KEYTIMEOUT=1
 export ASAN_OPTIONS=check_initialization_order=1:strict_init_order=1:detect_odr_violation=1 # :detect_leaks=0
 
 export LC_ALL="en_US.UTF-8"
-export TERM="screen-256color"
+# export TERM="screen-256color" # doesn't work well with oh-my-zsh
 alias tmux="tmux -2"
 
 echo ".zshrc sourced"

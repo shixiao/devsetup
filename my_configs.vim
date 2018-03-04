@@ -5,6 +5,7 @@ set tabstop=4
 set softtabstop=4
 highlight ColorColumn ctermbg=magenta
 call matchadd('ColorColumn', '\%81v', 100)
+set tw=80
 set expandtab
 set number
 set showcmd
