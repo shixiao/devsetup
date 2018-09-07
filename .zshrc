@@ -1,7 +1,3 @@
-#
-# Executes commands at the start of an interactive session.
-#
-
 export ZSH=/Users/xshi/.oh-my-zsh
 ZSH_THEME="agnoster"
 HYPHEN_INSENSITIVE="true"
@@ -19,13 +15,13 @@ HISTFILE=~/.zsh-history
 HISTSIZE=130000
 SAVEHIST=130000
 
-# set -o vi
-set -o emacs 
+# set -o vi or emacs
+set -o emacs
 
 #setopt BASH_AUTO_LIST
 
 # Use vi mode.
-bindkey -v
+# bindkey -v
 export EDITOR=vim
 export VISUAL=vim
 

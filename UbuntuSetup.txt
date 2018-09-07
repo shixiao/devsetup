@@ -9,24 +9,31 @@ atom
   config.cson
   keymap.cson
 vim
+  https://github.com/amix/vimrc
+  vundle
+  molokai // comment the line out first, install plugin, uncomment
+  remove comfortable-motion plugin
+
 emacs
 spacemacs
   monokai
+vscode
 
 oh-my-zsh
   zsh
   curl / wget
   git
   mercurial
-  powerline fonts
-
+  powerline fonts; powerline-status
 tmux
+  tpm
 
-gcc (gmp, mpfr, gmc)
+gcc (gmp, mpfr, gmc), clang, clang-tools
 cmake
 java / kotlin: intelliJ
 python (numpy, scipy)
 Julia
+ipython / jupyter notebook
 
 mosh
 yale cisco vpn
