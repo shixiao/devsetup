@@ -22,4 +22,6 @@
 !.vim*
 !.vim/colors/*
 !.zsh*
+!vscode/*
+!vscode/settings.json
 *~
