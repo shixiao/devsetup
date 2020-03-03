@@ -19,7 +19,6 @@ nnoremap gV `[v`]
 set history=10000
 syntax enable
 set background=dark
-colorscheme molokai
 
 exec "set listchars=tab:\uBB\uBB,nbsp:~,trail:\uB7"
 set list
@@ -71,3 +70,5 @@ filetype plugin indent on    " required
 " see :h vundle for more details or wiki for FAQ
 
 let g:cpp_class_scope_highlight = 1
+
+colorscheme molokai
