@@ -1,0 +1,55 @@
+{
+    "fb.remote-connections.hosts": [
+        {
+            "hostname": "our.xshi.fb.facebook.com",
+            "folders": []
+        },
+        {
+            "hostname": "devbig144.frc2.facebook.com",
+            "folders": [
+                "/data/users/xshi/configerator/",
+                "/data/users/xshi/configerator-dsi/",
+                "/data/users/xshi/eden-fbsource/",
+                "/data/users/xshi/fbsource/",
+                "/data/users/xshi/fbsource2/",
+                "/data/users/xshi/fbsource3/",
+                "/data/users/xshi/fbsource4/",
+                "/data/users/xshi/fbsource5/",
+                "/data/users/xshi/fbsource6/",
+                "/data/users/xshi/gcc/",
+                "/data/users/xshi/llvm-project/",
+                "/data/users/xshi/opsfiles/",
+                "/data/users/xshi/osmeta/",
+                "/data/users/xshi/papers/",
+                "/data/users/xshi/www-hg/"
+            ]
+        }
+    ],
+    "vim.normalModeKeyBindingsNonRecursive": [
+        {
+            "before": [
+                ";"
+            ],
+            "after": [
+                ":"
+            ]
+        }
+    ],
+    "window.zoomLevel": 2,
+    "workbench.colorTheme": "Dark (Molokai)",
+    "editor.renderWhitespace": "boundary",
+    "files.trimTrailingWhitespace": true,
+    "editor.formatOnSave": true,
+    "[hack]": {
+        "editor.formatOnSave": false,
+    },
+    "workbench.colorCustomizations": {
+        "editor.selectionBackground": "#080807",
+        "editor.selectionHighlightBackground": "#8a867a"
+    },
+    "files.insertFinalNewline": true,
+    "C_Cpp.updateChannel": "Insiders",
+    "interactive-smartlog.pull": "hg pull",
+    "interactive-smartlog.fetch": "jf get"
+}
+
